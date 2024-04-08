@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: f1;
+    src: url(fontes/GODOFWAR.TTF);
+}
+
+@font-face {
+    font-family: f2;
+    src: url(fontes/Simple\ Plan.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #679cbf;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: f1;
+}
+
+.p {
+    margin-top: 45px;
+    display: flex;
+    margin: 50px;
+    background-color: #185877;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.texto1 {
+    font-family: f2;
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.texto2 {
+    margin-left: 25px;
+    font-family: f2;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.container {
+    margin: 50px;
+    margin-top: 45px;
+    display: flex;
+    background-color: #185877;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    color: #2a2629;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: f1;
+}
